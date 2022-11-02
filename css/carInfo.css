@@ -1,0 +1,166 @@
+body {
+  background-color: black;
+}
+
+.section1_navbar {
+  position: initial;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-info {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 300;
+}
+.description {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(/resources/Toyota-hero-2.png);
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  color: white;
+  font-size: 4rem;
+  user-select: none;
+}
+
+.btnOrdenar {
+  background-color: transparent;
+  border: 3px solid white;
+  padding: 10px 70px;
+  color: white;
+  cursor: pointer;
+}
+
+.linkOrdenar {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.linkOrdenar::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+
+.linkOrdenar:hover::after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.carGallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.carGallery-img1 {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 5%,
+      rgba(0, 0, 0, 0) 46%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(/resources/sequoia-2.png);
+}
+
+.midSection {
+  padding-top: 70px;
+}
+
+.carGalleryRounded {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carGallery-img2 {
+  width: 97%;
+  border-radius: 15px;
+  height: 100vh;
+  background-position: center;
+  background-image: url(/resources/sequoia-gallery-3.png);
+}
+
+.midSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.midSection-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.video {
+  width: 90vw;
+  border-radius: 20px;
+}
+
+.carGalleryMultiple {
+  margin-top: 50px;
+  display: flex;
+  color: white;
+  padding: 0 5%;
+}
+
+.carGalleryMultiple-img {
+  width: 50%;
+}
+
+.carGalleryMultiple-img img {
+  width: 100%;
+}
+
+.carGalleryMultiple-info {
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}

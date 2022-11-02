@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  background-color: black;
+}
+
+:root {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#section1 {
+  height: 100vh;
+  background-image: url(/resources/Toyota-hero-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section2 {
+  height: 100vh;
+  background-image: url(/resources/Toyota-hero-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section3 {
+  height: 100vh;
+  background-image: url(/resources/Toyota-hero-6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section4 {
+  height: 100vh;
+  background-image: url(/resources/Toyota-hero-5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section1_navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.section1_menu,
+.section1_account,
+.section1_account a,
+.section1_menu-item a,
+.logo a {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.section1_menu-item a:hover {
+  text-decoration: underline;
+}
+
+.logo a {
+  font-weight: bold;
+  color: white;
+}
+
+.section1_content {
+  padding: 90px 0px 30px 0;
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section1_content-title {
+  color: white;
+  font-size: 4rem;
+  user-select: none;
+}
+
+.btnComprar {
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+
+.btnComprar a {
+  color: white;
+  text-decoration: none;
+}
+
+.btnComprar:hover {
+  transition: 0.4s all;
+  padding: 10px 25px;
+}
+
+.hidden {
+  display: none;
+}
+
+.scroll-container,
+.scroll-area {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.scroll-container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+  scroll-snap-align: center;
+}
