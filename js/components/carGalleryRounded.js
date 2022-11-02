@@ -3,7 +3,7 @@ const carGalleryRounded = () => {
   $div.className = "carGalleryRounded";
   $div.innerHTML = `
    <video class="video" autoplay muted loop id="myVideo">
-      <source src="/resources/sequoia video.mp4" type="video/mp4" />
+      <source src="/resources/Videos/Sequoia/sequoia video.mp4" type="video/mp4" />
     </video>`;
   return $div;
 };

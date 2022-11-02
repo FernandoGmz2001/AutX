@@ -7,9 +7,9 @@ const Navbar = () => {
         </div>
         <ul class="section1_menu">
           <li class="section1_menu-item"><a href="/public/sequoia.html">SEQUOIA</a></li>
-          <li class="section1_menu-item"><a href="#">COROLLA HATCHBACK</a></li>
-          <li class="section1_menu-item"><a href="#">AVALON HYBRID</a></li>
-          <li class="section1_menu-item"><a href="#">CAMRY</a></li>
+          <li class="section1_menu-item"><a href="/public/corolla.html">COROLLA HATCHBACK</a></li>
+          <li class="section1_menu-item"><a href="/public/grSupra.html">GR SUPRA</a></li>
+          <li class="section1_menu-item"><a href="/public/camry.html">CAMRY</a></li>
         </ul>
         <div class="section1_account">
         <div class="section1_account-cuenta"><a href="#">Cuenta</a></div>

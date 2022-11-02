@@ -17,25 +17,25 @@
 
 #section1 {
   height: 100vh;
-  background-image: url(/resources/Toyota-hero-2.png);
+  background-image: url(/resources/Sequoia/sequoia-1.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 #section2 {
   height: 100vh;
-  background-image: url(/resources/Toyota-hero-3.png);
+  background-image: url(/resources/Corolla/corolla-1.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 #section3 {
   height: 100vh;
-  background-image: url(/resources/Toyota-hero-6.png);
+  background-image: url(/resources/Supra/supra-1.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 #section4 {
   height: 100vh;
-  background-image: url(/resources/Toyota-hero-5.png);
+  background-image: url(/resources/Camry/camry-1.png);
   background-position: center;
   background-repeat: no-repeat;
 }

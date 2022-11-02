@@ -9,12 +9,12 @@ const body = document.querySelector("body");
 const carGalleryContainer = document.querySelector(".carGallery-container");
 
 main.style.backgroundImage =
-  "linear-gradient(180deg,rgba(0, 0, 0, 0) 80%,rgba(0, 0, 0, 1) 100%),url(/resources/Sequoia/sequoia-1.png)";
+  "linear-gradient(180deg,rgba(0, 0, 0, 0) 80%,rgba(0, 0, 0, 1) 100%),url(/resources/Camry/camry-1.png)";
 
 main.appendChild(Navbar());
 main.appendChild(
   CarInfo(
-    "SEQUOIA",
+    "CAMRY",
     "437 Hp/583 Lb.-Ft.",
     "22/20 MPG (2WD/4WD comb.) *",
     "6 pulg. Tercera fila deslizante",

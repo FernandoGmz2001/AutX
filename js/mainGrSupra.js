@@ -2,19 +2,19 @@ import CarInfo from "./components/carInfo.js";
 import midSection from "./components/midSection.js";
 import Navbar from "./components/navbar.js";
 import carGalleryRounded from "./components/carGalleryRounded.js";
-import { sequoiaDescription } from "./data/carsDescriptions.js";
+import { supraDescription } from "./data/carsDescriptions.js";
 
 const main = document.querySelector("#main");
 const body = document.querySelector("body");
 const carGalleryContainer = document.querySelector(".carGallery-container");
 
 main.style.backgroundImage =
-  "linear-gradient(180deg,rgba(0, 0, 0, 0) 80%,rgba(0, 0, 0, 1) 100%),url(/resources/Sequoia/sequoia-1.png)";
+  "linear-gradient(180deg,rgba(0, 0, 0, 0) 80%,rgba(0, 0, 0, 1) 100%),url(/resources/Supra/supra-1.png)";
 
 main.appendChild(Navbar());
 main.appendChild(
   CarInfo(
-    "SEQUOIA",
+    "GR SUPRA",
     "437 Hp/583 Lb.-Ft.",
     "22/20 MPG (2WD/4WD comb.) *",
     "6 pulg. Tercera fila deslizante",
@@ -25,7 +25,7 @@ main.appendChild(
 carGalleryContainer.appendChild(midSection());
 carGalleryContainer.appendChild(carGalleryRounded());
 
-sequoiaDescription.forEach((item) => {
+supraDescription.forEach((item) => {
   const $div = document.createElement("div");
   $div.className = "carGalleryMultiple";
   $div.style.flexDirection = `${item.RowDirection}`;
